@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "iOS Development",
+        "text": "Developing iOS based application using built-in Apple SDK such as UIKit and SwiftUI, along with Swift programming language.",
+        "icon": "/icons/ios.svg"
+    },
+    {
+        "id": 2,
+        "title": "Mobile App Development",
+        "text": "Developing an application that could run on both iOS and Android using an open source framework from Google called Flutter.",
+        "icon": "/icons/smartphone-line.svg"
+    }
+]

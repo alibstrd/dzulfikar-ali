@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "title": "BTN - Mobile Banking",
+        "subtitle": "Tech Stack: UIKit, VIPER, Alamofire, SnapKit, Carthage, Firebase, Frida Detection, Key Cryptography(RSA, AES, HSM)",
+        "coverimage": "/images/portfolios/BTN/cover.jpeg",
+        "imagegallery": [
+            "/images/portfolios/BTN/1.jpeg",
+            "/images/portfolios/BTN/2.jpeg",
+            "/images/portfolios/BTN/3.jpeg",
+            "/images/portfolios/BTN/4.jpeg",
+            "/images/portfolios/BTN/5.jpeg",
+            "/images/portfolios/BTN/6.jpeg",
+            "/images/portfolios/BTN/7.jpeg"
+        ],
+        "videogallery": false,
+        "url": "https://apps.apple.com/id/app/btn-mobile/id6443466424",
+        "filters": ["ios"]
+    },
+    {
+        "id": 2,
+        "title": "BUMN Cerdas -  Career & E-learning",
+        "subtitle": "Tech Stack: UIKit, SwiftUI, MVVM, XcodeGen, Alamofire, CocoaPods, Core Data, Firebase Crashlytics",
+        "coverimage": "/images/portfolios/BUMN Cerdas/cover.jpeg",
+        "imagegallery": [
+            "/images/portfolios/BUMN Cerdas/1.jpeg",
+            "/images/portfolios/BUMN Cerdas/2.jpeg",
+            "/images/portfolios/BUMN Cerdas/3.jpeg",
+            "/images/portfolios/BUMN Cerdas/4.jpeg",
+            "/images/portfolios/BUMN Cerdas/5.jpeg",
+            "/images/portfolios/BUMN Cerdas/6.jpeg",
+            "/images/portfolios/BUMN Cerdas/7.jpeg"
+        ],
+        "videogallery": false,
+        "url": false,
+        "filters": ["ios"]
+    },
+    {
+        "id": 3,
+        "title": "iMost - Cellular Data Plans & Credit Balance",
+        "subtitle": "Tech Stack: UIKit, MVVM, XIB, CocoaPods, Alamofire, RxSwift, Firebase Analytics and Firestore, Fastlane",
+        "coverimage": "images/portfolios/iMost/cover.png",
+        "imagegallery": [
+            "/images/portfolios/iMost/1.jpeg",
+            "/images/portfolios/iMost/2.jpeg",
+            "/images/portfolios/iMost/3.jpeg",
+            "/images/portfolios/iMost/4.jpeg",
+            "/images/portfolios/iMost/5.jpeg",
+            "/images/portfolios/iMost/6.jpeg",
+            "/images/portfolios/iMost/7.jpeg"
+        ],
+        "videogallery": false,
+        "url": false,
+        "filters": ["ios"]
+    },
+    {
+        "id": 4,
+        "title": "Kecilin - VPN & Media Compression",
+        "subtitle": "Tech Stack: UIKit, MVC, XIB, Git Submodule, Open VPN, TunnelKit, App Intent, Firebase Crashlytics, Fastlane",
+        "coverimage": "/images/portfolios/Kecilin VPN/cover.png",
+        "imagegallery": [
+            "/images/portfolios/Kecilin VPN/1.jpeg",
+            "/images/portfolios/Kecilin VPN/2.jpeg",
+            "/images/portfolios/Kecilin VPN/3.jpeg",
+            "/images/portfolios/Kecilin VPN/4.jpeg",
+            "/images/portfolios/Kecilin VPN/5.jpeg",
+            "/images/portfolios/Kecilin VPN/6.jpeg",
+            "/images/portfolios/Kecilin VPN/7.jpeg"
+        ],
+        "videogallery": false,
+        "url": false,
+        "filters": ["ios"]
+    },
+    {
+        "id": 5,
+        "title": "Belijo - On-Demand Veges for Farmer & Business",
+        "subtitle": "Tech Stack: UIKit, MVVM-C, Programmatic UI, CocoaPods, Alamofire, RxSwift, AppClip",
+        "coverimage": "images/portfolios/Belijo/cover.png",
+        "imagegallery": [
+            "/images/portfolios/Belijo/1.jpeg",
+            "/images/portfolios/Belijo/2.jpeg",
+            "/images/portfolios/Belijo/3.jpeg",
+            "/images/portfolios/Belijo/4.jpeg",
+            "/images/portfolios/Belijo/5.jpeg",
+            "/images/portfolios/Belijo/6.jpeg",
+            "/images/portfolios/Belijo/7.jpeg"
+        ],
+        "videogallery": false,
+        "url": false,
+        "filters": ["ios"]
+    },
+    {
+        "id": 6,
+        "title": "Amikom - Online Exam",
+        "subtitle": "Tech Stack: UIKit, VIP, XIB, CocoaPods, Moya, RxSwift, Quick, Nimble, Fastlane",
+        "coverimage": "images/portfolios/Amikom/cover.jpeg",
+        "imagegallery": [
+            "/images/portfolios/Amikom/1.jpeg",
+            "/images/portfolios/Amikom/2.jpeg",
+            "/images/portfolios/Amikom/3.jpeg",
+            "/images/portfolios/Amikom/4.jpeg",
+            "/images/portfolios/Amikom/5.jpeg",
+            "/images/portfolios/Amikom/6.jpeg",
+            "/images/portfolios/Amikom/7.jpeg"
+        ],
+        "videogallery": false,
+        "url": false,
+        "filters": ["ios"]
+    },
+    {
+        "id": 7,
+        "title": "Kanca - Personal Space",
+        "subtitle": "Tech Stack: Dart, BLoC, Dio",
+        "coverimage": "images/portfolios/Kanca/cover.png",
+        "imagegallery": [
+            "/images/portfolios/Kanca/1.png",
+            "/images/portfolios/Kanca/2.png",
+            "/images/portfolios/Kanca/3.png",
+            "/images/portfolios/Kanca/4.png",
+            "/images/portfolios/Kanca/5.png",
+            "/images/portfolios/Kanca/6.png",
+            "/images/portfolios/Kanca/7.png"
+        ],
+        "videogallery": false,
+        "url": false,
+        "filters": ["flutter"]
+    }
+]

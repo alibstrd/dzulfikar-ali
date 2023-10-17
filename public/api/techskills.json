@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "title": "iOS Development",
+        "percentage": 95
+    },
+    {
+        "id": 2,
+        "title": "Flutter Development",
+        "percentage": 60
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "iOS Engineer",
+        "meta": "Widya Edu",
+        "text": "A company that focuses on Educational Technology, Widya Edu is the first place that give me an opportunity to do an internship program. From a guy who just spending watching a ton of tutorials to contribute to the real live app, thats nuts. I learnt a lot while being there. When i finished my internship, I was given a contract to work as a sole developer for an app. Being able to start a project from scratch while also having a mentor is such a wonderful experience. I am deeply grateful to them because it was such an invaluable experience.",
+        "year": "2020 - 2021"
+    },
+    {
+        "id": 2,
+        "title": "Internship",
+        "meta": "Apple Developer Academy",
+        "text": "This is such a great program provided by Apple. We are equally have the same opportunity to join this program regardless our backgrounds are. I have been learning a lot of things here, they have a great learning framework called Challenge Based Learning (CBL) to make sure the students have the learning experience in the best way. We particularly have some challenges during the academy, and it is getting harder over time. It’s not only improved me as a coder, but it also supports me to learn how to have the good critical thinking, teamwork, leadership, etc. During this period I could explore all the things related to Apple technologies,  while also have a dedicated mentors as well. That was just outstanding.",
+        "year": "2021"
+    },
+    {
+        "id": 3,
+        "title": "iOS Engineer",
+        "meta": "Kecilin",
+        "text": "While Widya Edu offered me the chance to do an internship, Kecilin also offered me with the chance to work as a full-time employee despite the fact that I am a relatively rookie in iOS development. I am aware of how fortunate I am to have this opportunity. We only have 2 iOS developers there, we have a similarity that we both a final semester college student while doing our undergraduate thesis and working at the same time. During the time we have an opportunity to explore and try a lot of new things, including launching the VPN and media compression service-focused product as well as client B2B projects.",
+        "year": "2020 - 2021"
+    },
+    {
+        "id": 4,
+        "title": "iOS Engineer",
+        "meta": "Bibit.id",
+        "text": "After I finished my undergraduate thesis, I had to challenge myself to some extent. Thanks to my previous experiences, I was able to join one of the leading companies in the financial services sector. In Bibit, I have to focus more on improving product quality than fast-paced shipment due to the app's quite large user base. Here I also learn how to collaborate with numerous teams in a highly organized and disciplined manner. During the time, I also spent a lot of time researching and implementing the things that related to the improvement of the app on a deeper level. Such as the productivity of the internal team itself.",
+        "year": "2022 - Present"
+    }
+]

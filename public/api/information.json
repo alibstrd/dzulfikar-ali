@@ -1,0 +1,19 @@
+{
+  "firstName": "Dzulfikar",
+  "lastName": "Ali",
+  "fullName": "Dzulfikar Ali",
+  "thumbImage": "/images/formal-image.jpg",
+  "largeImage": "/images/about-image.jpg",
+  "bio": "An iOS Engineer with 3 years of experience based in Yogyakarta. I believe learning is a constant companion, I'm always up for the challenge and I got the drive to push things. I'm excited to keep growing, learning, and collaborating with fellow tech enthusiasts. Feel free to reach out if you want to chat about iOS development, whether it's brainstorming wild ideas, or just discuss about the possibility that Arsenal will lift the EPL trophy this season!",
+  "age": 27,
+  "nationality": "Indonesian",
+  "languages": ["English", "Bahasa"],
+  "address": "Yogyakarta, Indonesia",
+  "freelance": "Available",
+  "socialAddress": {
+    "github": "https://github.com/alibstrd",
+    "linkedin": "https://linkedin.com/in/dzulfikar-ali"
+  },
+  "phoneNumbers": ["+62-81227887703"],
+  "emailAddress": ["dzulfikarali96@gmail.com"]
+}

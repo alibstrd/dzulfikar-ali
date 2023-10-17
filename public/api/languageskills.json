@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "UIKit",
+        "percentage": 85
+    },
+    {
+        "id": 2,
+        "title": "Swift UI",
+        "percentage": 65
+    },
+    {
+        "id": 3,
+        "title": "Swift",
+        "percentage": 85
+    },
+    {
+        "id": 4,
+        "title": "Dart",
+        "percentage": 60
+    }
+]
