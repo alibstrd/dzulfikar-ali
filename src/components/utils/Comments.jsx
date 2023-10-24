@@ -1,31 +1,20 @@
-import { useState, useEffect } from "react";
-import { DiscussionEmbed } from "disqus-react";
-import Spinner from "./Spinner";
+import React, { useRef } from "react";
+import useScript from "../../lib/use-script";
 
-const Comments = ({ title, slug }) => {
-  const [mounted, setMounted] = useState(false);
+const id = "comments-container";
+const Comments = () => {
+  const comment = useRef(null);
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const status = useScript({
+    url: "https://utteranc.es/client.js",
+    theme: "icy-dark",
+    issueTerm: "url",
+    repo: "alibstrd/dzulfikar-ali",
+    ref: comment,
+    id: id,
+  });
 
-  if (!mounted)
-    return (
-      <div className="block py-20 text-center">
-        <Spinner />
-      </div>
-    );
-
-  return (
-    <DiscussionEmbed
-      shortname={process.env.NEXT_PUBLIC_DISCUSS_SHORTNAME}
-      config={{
-        url: process.env.NEXT_PUBLIC_SITE_URL,
-        identifier: slug,
-        title: title,
-      }}
-    />
-  );
+  return <div className="w-full">{<div ref={comment} id={id}></div>}</div>;
 };
 
 export default Comments;

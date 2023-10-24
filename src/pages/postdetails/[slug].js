@@ -86,7 +86,7 @@ const PostPage = ({ title, date, cover, category, content }) => {
             dangerouslySetInnerHTML={{ __html: marked(content) }}
           ></div>
           <div className="post-comments mt-8">
-            <Comments title={title} slug={slug} />
+            <Comments />
           </div>
         </div>
       </div>

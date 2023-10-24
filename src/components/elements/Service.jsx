@@ -8,8 +8,8 @@ const Service = ({ service: { title, text, icon } }) => {
           className="fill-current text-primary"
           src={icon}
           beforeInjection={(svg) => {
-            svg.setAttribute("height", "auto");
-            svg.setAttribute("width", "auto");
+            svg.setAttribute("height", "45");
+            svg.setAttribute("width", "45");
             svg.setAttribute("fill", "currentColor");
           }}
         />

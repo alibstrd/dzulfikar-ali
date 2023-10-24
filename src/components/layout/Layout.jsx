@@ -49,7 +49,7 @@ const Layout = ({ children, blurred }) => {
           opacity: backToTop ? 1 : 0,
           x: backToTop ? 0 : 1000,
         }}
-        className="btn fixed bottom-12 left-auto top-auto right-7 z-30 rounded-full p-2.5 text-xl"
+        className="btn fixed bottom-12 left-auto right-7 top-auto z-30 rounded-full p-2.5 text-xl"
         onClick={() => scroll.scrollToTop()}
       >
         <RiArrowUpSLine />

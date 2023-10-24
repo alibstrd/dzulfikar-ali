@@ -32,16 +32,14 @@ function MyApp({ Component, pageProps }) {
             name="viewport"
             content="width=device-width, initial-scale=1 maximum-scale=1"
           />
-          <meta name="description" content="description" />
+          <meta name="description" content="Personal Website" />
           <meta name="robots" content="noindex, nofollow" />
-          <meta name="keywords" content="React Template, Portfolio Template" />
-          <meta name="author" content="Nuclear Themes" />
+          <meta name="keywords" content="Personal Website" />
           <meta name="theme-color" content="#72E2AE" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <link rel="manifest" href="/manifest.json" />
           <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-          <link rel="apple-touch-icon" href="/icon-192x192.png" />
-          <title>Bieber - React Personal Portfolio Template</title>
+          <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+          <title>Dzulfikar Ali</title>
         </Head>
         <ParallaxProvider>
           <Hydrate state={pageProps.dehydratedState}>

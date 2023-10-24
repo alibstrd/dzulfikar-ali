@@ -274,7 +274,7 @@
       &::before,
       &::after {
         content: "";
-        @apply absolute left-0 -top-0.5 h-5 w-5 cursor-pointer rounded-full bg-transparent transition-all;
+        @apply absolute -top-0.5 left-0 h-5 w-5 cursor-pointer rounded-full bg-transparent transition-all;
       }
 
       &::before {
@@ -308,7 +308,7 @@
       &::before,
       &::after {
         content: "";
-        @apply absolute left-0 -top-0.5 cursor-pointer rounded-full bg-transparent transition-all;
+        @apply absolute -top-0.5 left-0 cursor-pointer rounded-full bg-transparent transition-all;
       }
 
       &::before {
@@ -335,7 +335,7 @@
     @apply block w-full cursor-pointer border-none px-0 text-sm file:mr-4
         file:h-10 file:cursor-pointer file:rounded-full file:border-0
         file:bg-primary file:bg-opacity-10
-        file:py-2 file:px-4
+        file:px-4 file:py-2
         file:text-sm file:font-medium file:text-primary;
   }
 }
@@ -366,10 +366,10 @@
     @apply bg-primary bg-opacity-10 text-primary hover:text-grey;
   }
   .btn-large {
-    @apply py-2.5 px-5 text-base md:py-3 md:px-7 md:text-lg;
+    @apply px-5 py-2.5 text-base md:px-7 md:py-3 md:text-lg;
   }
   .btn-small {
-    @apply py-1.5 px-4;
+    @apply px-4 py-1.5;
   }
 
   .btn-readmore {
@@ -404,12 +404,15 @@
       @apply relative mb-1 pl-6 last:mb-0;
       &::before {
         content: "";
-        @apply absolute top-2 left-0 h-2 w-2 rounded-full bg-primary;
+        @apply absolute left-0 top-2 h-2 w-2 rounded-full bg-primary;
       }
     }
   }
   .container {
     @apply px-4 2xl:max-w-[1350px];
+  }
+  .post-detail {
+    @apply px-48 2xl:max-w-[1200px];
   }
   .text-outline {
     -webkit-text-stroke: 1px theme("colors.primary");
@@ -440,7 +443,7 @@
     @apply relative pb-3;
     &::after {
       content: "";
-      @apply absolute left-0 top-auto bottom-0 h-0.5 w-14 rounded-full bg-primary;
+      @apply absolute bottom-0 left-0 top-auto h-0.5 w-14 rounded-full bg-primary;
     }
   }
 }
@@ -690,3 +693,7 @@
 .fullmenuitem {
   writing-mode: vertical-rl;
 }
+
+// .utterances {
+//   max-width: 100%;
+// }

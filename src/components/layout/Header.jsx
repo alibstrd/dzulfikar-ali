@@ -14,8 +14,7 @@ const Header = () => {
 
   const router = useRouter();
 
-  const checkroute =
-    router.route !== "/";
+  const checkroute = router.route !== "/";
 
   const isSticky = () => {
     const scrollTop = window.scrollY;
@@ -26,10 +25,11 @@ const Header = () => {
 
   return (
     <header
-      className={`header top-0 left-0 z-50 h-auto w-full ${sticky
+      className={`header left-0 top-0 z-50 h-auto w-full ${
+        sticky
           ? "fixed animate-slidedown border-b border-white border-opacity-20 bg-grey bg-opacity-80 backdrop-blur backdrop-filter"
           : "absolute"
-        }`}
+      }`}
     >
       <div className="container mx-auto">
         <div className="header-inner flex items-center justify-between">
@@ -39,9 +39,7 @@ const Header = () => {
                 DA
               </a>
             </Link>
-            <a className="header-logo py-2 text-4xl font-bold uppercase">
-              .
-            </a>
+            <a className="header-logo py-2 text-4xl font-bold uppercase">.</a>
           </div>
           <div className="header-mobilenav block lg:hidden">
             <button
